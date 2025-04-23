@@ -53,7 +53,6 @@ function filterMenu(category) {
 
       itemElement.innerHTML = `
         <h3>${item.name}</h3>
-        <p>${item.description || 'No description'}</p>
         <strong>Price: ${item.price}</strong>
         <br>
         <button onclick="addToOrder('${item.name}', '${item.price}')">Add to Order</button>
