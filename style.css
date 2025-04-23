@@ -1,0 +1,133 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    flex-direction: column;
+  }
+  
+  /* Title Styling */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for Menu and Sidebar */
+  .menu-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Sidebar Styling */
+  .category-sidebar {
+    width: 20%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+  }
+  
+  .category-box {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-box:hover {
+    background-color: #ff9900;
+  }
+  
+  /* Main content styling */
+  main {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .menu-item .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .menu-item .price {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Button Styling */
+  .next-btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color: #ff9900;
+  }
+  .order-section {
+    margin-top: 20px;
+    background-color: #fff8dc;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .order-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  #order-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #order-list li {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  

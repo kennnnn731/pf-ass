@@ -1,0 +1,113 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff9900;
+  text-align: center;
+}
+
+#order-list {
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.order-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.order-item:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-item h3 {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.order-item p {
+  color: #666;
+  font-size: 14px;
+}
+
+.order-item .price {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+#total-price {
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Remove button */
+.remove-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #ff9900;
+  color: #FF3D3D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #ff9900;
+  color: white;
+}
+
+.remove-btn i {
+  font-size: 18px; /* Icon size */
+}
+
+/* Layout Adjustments */
+.order-details {
+  flex: 1;
+}
+
+/* Button Styling */
+button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ff9900;
+}

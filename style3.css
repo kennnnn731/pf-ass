@@ -1,0 +1,48 @@
+body {
+    font-family: 'Courier New', monospace;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .receipt {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .receipt h2, .receipt p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .items {
+    margin-top: 20px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    border-top: 1px dashed #000;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .thank-you {
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+  }
+  

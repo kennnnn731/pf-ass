@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>buyog meals menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>buyog Meals</h1>
+  <h2>Lami na Barato pa</h2>
+
+  <div class="menu-container">
+    <aside class="category-sidebar">
+      <div class="category-box" onclick="filterMenu('Chickenjoy')">🍗 Chickenjoy</div>
+      <div class="category-box" onclick="filterMenu('Burgers')">🍔 Burgers</div>
+      <div class="category-box" onclick="filterMenu('SpaghettiPalabok')">🍝 Spaghetti & Palabok</div>
+      <div class="category-box" onclick="filterMenu('Breakfast')">🍳 Breakfast Meals</div>
+      <div class="category-box" onclick="filterMenu('Drinks')">🥤 Drinks</div>
+      <div class="category-box" onclick="filterMenu('Coffee')">☕ Coffee</div>
+      <div class="category-box" onclick="filterMenu('Desserts')">🥧 Desserts</div>
+      <div class="category-box" onclick="filterMenu('FriesSides')">🍟 Fries & Sides</div>
+    </aside>
+
+    <main>
+      <div class="menu" id="menu"></div>
+      <div class="order-section">
+    <h2>Your Order</h2>
+    <ul id="order-list"></ul>
+    <p id="total-amount">Total: ₱0.00</p>
+  </div>
+  
+      <button class="next-btn" onclick="goToCheckout()">Proceed to payment-method and Review your orders</button>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
